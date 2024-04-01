@@ -33,12 +33,22 @@ module.exports = {
 
       animation: {
         'infinite-scroll': 'infinite-scroll 10s linear infinite',
+        'fadeIn': 'fadeIn 2s ease-out forwards infinite',
       },
       keyframes: {
+        'fadeIn': {
+          '0%': { opacity: '0.4' },
+          '100%': { opacity: '1' },
+        },
+        'pulse' : {
+          '50%': { opacity: '0.3' }
+      },
+
         'infinite-scroll': {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
         }
+      
     },
   },
   plugins: [],

@@ -42,6 +42,9 @@ function Footer() {
                                     <img src="/Images/bootstrap.svg" alt="bootstrap" className='w-16' />
                                 </li>
                                 <li>
+                                    <img src="/Images/html.svg" alt="html" className='w-16' />
+                                </li>
+                                <li>
                                     <img src="/Images/react.svg" alt="reactjs" className='w-16' />
                                 </li>
                             </ul>
@@ -76,6 +79,9 @@ function Footer() {
                                 </li>
                                 <li>
                                     <img src="/Images/bootstrap.svg" alt="bootstrpa" className='w-16' />
+                                </li>
+                                <li>
+                                    <img src="/Images/html.svg" alt="html" className='w-16' />
                                 </li>
                                 <li>
                                     <img src="/Images/react.svg" alt="reactjs" className='w-16' />

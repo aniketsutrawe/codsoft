@@ -3,7 +3,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='p-10 grid grid-cols-1 leading-snug md:grid-cols-2 items-center mt-[-20px] lg:h-[calc(53%+2rem)] max-sm:h-[calc(70%+2rem)]'>
+    <div className='p-10 grid grid-cols-1 leading-snug md:grid-cols-2 items-center mt-[-20px] lg:h-[calc(49%+2rem)] max-md:h-[calc(70%+2rem)] max-sm:h-[calc(70%+2rem)]'>
 
       <div>
         <h4 className='font-bold  text-[18px] bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600'>Hello, I’m Aniket Sutrawe</h4>
